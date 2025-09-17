@@ -1,0 +1,52 @@
+############################################
+# Maven / Gradle build outputs
+############################################
+**/target/
+**/build/
+**/out/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+############################################
+# Maven wrapper
+############################################
+**/.mvn/wrapper/maven-wrapper.jar
+**/.mvn/timing.properties
+
+############################################
+# IDE Specific
+############################################
+
+### IntelliJ IDEA ###
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### Eclipse / STS ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings/
+**/.springBeans
+**/.sts4-cache/
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### VS Code ###
+**/.vscode/
+
+############################################
+# OS generated files
+############################################
+.DS_Store
+Thumbs.db
